@@ -78,6 +78,30 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 	margin: 130px auto 100px auto;
 }
 
+#bodyWrapper p { 
+	font-size: 16px;
+	line-height: 1.25em;
+}
+
+#bodyWrapper .textLarge {
+	font-size: 18px;
+	line-height: 1.35em;
+}
+
+#bodyWrapper .textBold {
+	font-weight: bold;
+}
+
+
+#bodyWrapper a { 
+	color: #666;
+	cursor: pointer;
+}
+
+#bodyWrapper a:hover { 
+	color: #333;
+}
+
 #bodyWrapper h1 { 
 	border-bottom: 3px solid #000;
 	font-size: 32px;
@@ -269,8 +293,9 @@ footer {
 	header .headerName { 
 		float: left;
 		width: 100%;
-		padding: 10px 0px;
+		padding: 20px 0px;
 		text-align: center;
+		font-size: 29px;
 	}
 
 	header .headerName.secondary { 
