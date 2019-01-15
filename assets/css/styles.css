@@ -20,7 +20,7 @@ header {
 
 header .headerWrapper { 
 	max-width: 960px; 
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -39,6 +39,7 @@ header .headerName.secondary {
  url("../../assets/images/michael-rosario.jpeg") top left no-repeat;
 	background-size: contain;
 	padding: 25px 20px 25px 120px;
+	margin-left: -97px;
 }
 
 header nav {
@@ -69,7 +70,7 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 
 
 #bodyWrapper { 
-	width: 90%; 
+	width: 100%; 
 	max-width: 960px;
 	background: #FFF;
 	position: relative;
@@ -116,9 +117,12 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 
 .socialMedia li a { 
 	display: inline-block;
-	padding: 10px;
+	padding: 11px 0px 9px;
 	border: 1px solid #666;
 	color: #666;
+	border-radius: 300px;
+	width: 40px;
+	text-align: center;
 }
 .socialMedia li a:hover { 
 	border: 1px solid #000;
@@ -133,7 +137,6 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 
 
 /* PORFOLIO SPECIFIC */
-
 .portFolioItems { 
 	padding: 0;
 	margin: 0;
@@ -143,17 +146,39 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 .portFolioItems li {
 	display: inline;
 	float: left;
-}
-
-.portFolioItems a {
 	float: left;
 	width: 200px;
 	height: 200px;
-	background: #000;
-	border-radius: 4px;
-	margin: 0 20px 20px 0;
+	margin: 0 20px 0 0;
+	font-weight: bold;
+
+
 }
 
+.portFolioItems li a {
+	text-decoration: none;
+	color: #444;
+}
+
+.portFolioItems li a:hover {
+	color: #000;
+}
+
+
+.portFolioItems .cover {
+	width: 100%;
+	float: left;
+	height: 150px;
+	overflow: hidden;
+	border: 1px solid #111;
+	background: #000;
+	border-radius: 4px;
+	margin: 0 20px 10px 0;
+}
+
+.portFolioItems li a:hover .cover {
+	border: 2px solid #000;
+}
 
 /* CONTACT SPECIFIC */
 
@@ -164,6 +189,7 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 	font-weight: 600;
 	margin: 0 0 10px 0;
 }
+
 .contactForm textarea,
 .contactForm input { 
 	display: block; 
