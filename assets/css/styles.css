@@ -1,0 +1,207 @@
+* { 
+	box-sizing: border-box
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	background: #EEE;
+}
+
+header { 
+	display: inline-block;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	top: 0px;
+	padding: 0;
+	z-index: 2;
+}
+
+header .headerWrapper { 
+	max-width: 960px; 
+	width: 90%;
+	margin: 0 auto;
+}
+
+header .headerName { 
+	float: left;
+	padding: 25px 20px;
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	background: rgba(255,255,255,0.1);
+	margin: 0;
+}
+
+header nav {
+	float: right;
+}
+
+nav ul { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	float: left;
+	font-size: 20px;
+}
+
+nav li a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 37px;
+	float: left;
+}
+nav li a.current,
+nav li a:hover { background: rgba(255,255,255,0.1); }
+
+
+#bodyWrapper { 
+	width: 90%; 
+	max-width: 960px;
+	background: #FFF;
+	position: relative;
+	padding: 10px 30px 20px;
+	margin: 130px auto 100px auto;
+}
+
+#bodyWrapper h1 { 
+	border-bottom: 3px solid #000;
+	font-size: 32px;
+	padding: 0px 0 10px;
+}
+
+#bodyWrapper img { 
+	float: left;
+	margin: 0 20px 20px 0;
+	width: 100%;
+	max-width: 300px;
+}
+
+.clearfix {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.socialMedia {
+	float: left;
+	position: absolute;
+	right: 30px;
+	top: 20px;
+	list-style: none;
+}
+
+.socialMedia li {
+	list-style: none;
+	display: inline;
+}
+
+.socialMedia li ins { 
+	border: none;
+	text-decoration: none;
+}
+
+.socialMedia li a { 
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #666;
+	color: #666;
+}
+.socialMedia li a:hover { 
+	border: 1px solid #000;
+	color: #000;
+}
+
+.socialMedia .socialMediaLabel {
+	font-family: Helvetica, sans-serif;
+	padding-right: 10px;
+	color: #999;
+}
+
+
+/* PORFOLIO SPECIFIC */
+
+.portFolioItems { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.portFolioItems li {
+	display: inline;
+	float: left;
+}
+
+.portFolioItems a {
+	float: left;
+	width: 200px;
+	height: 200px;
+	background: #000;
+	border-radius: 4px;
+	margin: 0 20px 20px 0;
+}
+
+
+/* CONTACT SPECIFIC */
+
+.contactForm label { 
+	display: block; 
+	clear: both; 
+	width: 100%; 
+	font-weight: 600;
+	margin: 0 0 10px 0;
+}
+.contactForm textarea,
+.contactForm input { 
+	display: block; 
+	clear: both; 
+	width: 100%; 
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	margin: 0 0 20px 0;
+}
+
+.contactForm textarea {
+	height: 300px;
+}
+
+.contactForm input[type=submit] {
+	display: inline-block;
+	width: auto;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 10px 30px;
+
+}
+
+
+footer { 
+	padding: 10px 0 10px 0;
+	background: rgba(0,0,0,0.8);
+	display: block;
+	width: 100%;
+	float: left;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	color: #FFF;
+}
+
+@media only screen and (max-width: 804px) {
+
+	nav li a {
+		
+		padding: 37px 18px;
+		
+	}
+
+} 
+
+

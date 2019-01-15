@@ -1,28 +1,30 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Michael Rosario</title>
-            <link rel="stylesheet" media="all" href="./style.css" />
+            <title>Contact : Michael Rosario</title>
+            <link rel="stylesheet" media="all" href="./assets/css/styles.css" />
         </head>
         <body>
             <header>
-                <a href="./index.html" title="About Michael Rosario">Michael Rosario</a>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="./index.html">About</a>
-                        </li>
-                        <li>
-                            <a href="./portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
-                            <a class="current" href="./contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="headerWrapper">
+                    <a class="headerName" href="./index.html" title="About Michael Rosario">Michael Rosario</a>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="./index.html">About</a>
+                            </li>
+                            <li>
+                                <a href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li>
+                                <a class="current" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
             
-            <section>
+            <section id="bodyWrapper" class="contactForm">
                 
                 <h1>Contact</h1>
 
@@ -36,6 +38,8 @@
                 <textarea name="subject"></textarea>
 
                 <input type="submit" value="Send" />
+
+                <div class="clearfix"></div>
                 
             </section>
           
