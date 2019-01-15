@@ -34,6 +34,13 @@ header .headerName {
 	margin: 0;
 }
 
+header .headerName.secondary { 
+	background: rgba(255,255,255,0.1)
+ url("../../assets/images/michael-rosario.jpeg") top left no-repeat;
+	background-size: contain;
+	padding: 25px 20px 25px 120px;
+}
+
 header nav {
 	float: right;
 }
