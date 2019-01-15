@@ -88,6 +88,9 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 	float: left;
 	margin: 0 20px 20px 0;
 	width: 100%;
+}
+
+#bodyWrapper .aboutPhoto {
 	max-width: 300px;
 }
 
@@ -147,9 +150,10 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 	display: inline;
 	float: left;
 	float: left;
-	width: 200px;
-	height: 200px;
-	margin: 0 20px 0 0;
+	width: 25%;
+	min-height: 180px;
+	padding: 0 20px 10px 0;
+	margin: 0 0px 30px 0;
 	font-weight: bold;
 
 
@@ -174,6 +178,11 @@ nav li a:hover { background: rgba(255,255,255,0.1); }
 	background: #000;
 	border-radius: 4px;
 	margin: 0 20px 10px 0;
+}
+
+.portFolioItems .cover img {
+	width: 100%;
+	height: auto !important;
 }
 
 .portFolioItems li a:hover .cover {
@@ -229,6 +238,13 @@ footer {
 
 @media only screen and (max-width: 804px) {
 
+	.portFolioItems li {
+		width: 33.33%;
+	}
+	.portFolioItems .cover {
+		height: 140px;
+	}
+
 	nav li a {
 		
 		padding: 37px 18px;
@@ -236,5 +252,71 @@ footer {
 	}
 
 } 
+
+@media only screen and (max-width: 767px) {
+
+	.portFolioItems li {
+		width: 50%;
+	}
+	.portFolioItems .cover {
+		height: 190px;
+	}
+
+} 
+
+@media only screen and (max-width: 646px) {
+
+	header .headerName { 
+		float: left;
+		width: 100%;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	header .headerName.secondary { 
+		padding: 10px 0;
+		margin-left: 0px;
+	}
+
+	header nav {
+		width: 100%;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+	nav li {
+		list-style: none;
+		display: inline-block;
+		float: none;
+		font-size: 20px;
+	}
+
+	nav li a {
+		color: #FFF;
+		text-decoration: none;
+		padding: 7px;
+		float: left;
+		background: none;
+		padding-bottom: 9px;
+	}
+	nav li a.current,
+	nav li a:hover {
+		border-bottom: 2px solid #999;
+		background: none;
+		padding-bottom: 7px;
+	}
+
+	.portFolioItems li {
+		width: 100%;
+		margin-right: 0;
+		padding: 0;
+	}
+	.portFolioItems .cover {
+		height: 260px;
+	}
+
+} 
+
+
 
 
