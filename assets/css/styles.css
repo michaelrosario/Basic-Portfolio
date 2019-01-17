@@ -294,7 +294,7 @@ footer {
 
 } 
 
-@media only screen and (max-width: 674px) {
+@media only screen and (max-width: 680px) {
 
 	header .headerName { 
 		float: left;
