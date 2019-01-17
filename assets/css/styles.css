@@ -288,6 +288,9 @@ footer {
 	.portFolioItems .cover {
 		height: 190px;
 	}
+	nav li a {
+		padding: 37px 14px;
+	}
 
 } 
 
